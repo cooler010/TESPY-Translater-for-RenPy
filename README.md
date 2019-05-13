@@ -3,13 +3,13 @@
 
 # TesPy
 
-TesPy - помощник для перевода RenPy игр адаптированный под Windows и работающий в CMD.
+TesPy - помощник для перевода RenPy игр адаптированный под Windows и Linux, работающий в терминале.
 
 ## Установка
 
 Скачайте и установите [Python 3](https://www.python.org/downloads/release)
 
-Далее в CMD
+Далее в терминале
 ```
 pip install googletrans
 cd path\to\program
