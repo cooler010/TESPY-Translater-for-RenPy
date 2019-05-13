@@ -8,7 +8,8 @@ TesPy - помощник для перевода RenPy игр адаптиров
 ## Установка
 
 Скачайте и установите [Python 3](https://www.python.org/downloads/release)
- Далее в терминале
+
+Далее в терминале
 ```
 pip install googletrans
 cd path\to\program
