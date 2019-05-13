@@ -1,7 +1,7 @@
-# Creator: cooler010
 # Last update: 13.05.2019 version=1.0.1
 
 
+# TesPy
 TesPy - помощник для перевода RenPy игр адаптированный под Windows и работающий в CMD.
 
 Инструкция по установке:
