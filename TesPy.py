@@ -2,13 +2,18 @@
 # Data create: 12.05.2019
 # Last update: 13.05.2019
 
-from googletrans import Translator 
+from googletrans import Translator
+from sys import platform
 import re
 import os
-clear = lambda:os.system('cls')
+if platform == 'linux' or platform == 'linux2':
+    clearcmd = 'clear'
+elif platform == 'win32':
+    clearcmd = 'cls'
+clear = lambda:os.system(clearcmd)
 translator = Translator()
 clear()
-print('[TESPY 1.0.1] Creator: Cooler010\n')
+print('[TESPY] Creator: Cooler010\n')
 nametextfile = input('Имя файла(с расширением): ')
 clear()
 # Read file
@@ -48,3 +53,4 @@ while y < len(occ):
 output = open('log.txt','w', encoding='utf-8')
 output.write(data)
 output.close()
+print('Программа завершена. Результат сохранён в [log.txt]')
