@@ -1,11 +1,11 @@
 
 
 
-##2 TesPy
+##H2 TesPy
 
 TesPy - помощник для перевода RenPy игр адаптированный под Windows и работающий в CMD.
 
-##2 Установка
+##H2 Установка
 
 Скачайте и установите [Python 3](https://www.python.org/downloads/release)
 ```
