@@ -8,7 +8,7 @@ import os
 clear = lambda:os.system('cls')
 translator = Translator()
 clear()
-print('[TESPY] Creator: Cooler010\n')
+print('[TESPY 1.0.1] Creator: Cooler010\n')
 nametextfile = input('Имя файла(с расширением): ')
 clear()
 # Read file
